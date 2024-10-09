@@ -1,0 +1,20 @@
+.gallery-container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.gallery-grid {
+    display: fixed;
+    
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery-image {
+    width: 550px;
+    height: 400px;
+    margin: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}

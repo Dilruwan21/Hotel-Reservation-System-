@@ -1,0 +1,60 @@
+.accommodation-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.accommodations {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.accommodation-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.accommodation-image {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.accommodation-details {
+    max-width: 600px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.book-now-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    width: 800px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book-now-btn:hover {
+    background-color: #0056b3;
+}
+
+
